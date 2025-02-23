@@ -67,7 +67,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   /* big screen styling for the links */
   .navbar .nav-links {
     display: flex;
@@ -110,4 +109,28 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.clockContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid red;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid red;
+  padding: 8px 15px;
+}
+
+.container span {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid red;
 }
